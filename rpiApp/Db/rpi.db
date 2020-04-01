@@ -1,0 +1,50 @@
+record(sub, "$(BL):$(DEV):threads_init")
+{
+    field(PINI, "YES")
+    field(INAM, "startserver")
+    field(INPA, "0")
+    field(SNAM, "readaddr")
+}
+
+record(sub, "$(BL):$(DEV):switch_A")
+{
+    field(SNAM, "cswitch")
+    field(INPA, "0")
+}
+
+record(sub, "$(BL):$(DEV):switch_B")
+{
+    field(SNAM, "cswitch")
+    field(INPA, "1")
+}
+
+record(mbbo, "$(BL):$(DEV):select_A")
+{
+    field(OUT, "$(BL):$(DEV):switch_A PP")
+    field(ZRST, "OFF")
+    field(ZRVL, "0")
+    field(ONST, "Input 1")
+    field(ONVL, "1")
+    field(TWST, "Input 2")
+    field(TWVL, "2")
+    field(THST, "Input 3")
+    field(THVL, "3")
+    field(FRST, "Input 4")
+    field(FRVL, "4")
+}
+
+record(mbbo, "$(BL):$(DEV):select_B")
+{ 
+    field(OUT, "$(BL):$(DEV):switch_B PP")
+    field(ZRST, "OFF")
+    field(ZRVL, "0")
+    field(ONST, "Input 1")
+    field(ONVL, "1")
+    field(TWST, "Input 2")
+    field(TWVL, "2")
+    field(THST, "Input 3")
+    field(THVL, "3")
+    field(FRST, "Input 4")
+    field(FRVL, "4")
+}
+

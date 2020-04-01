@@ -1,0 +1,6 @@
+record(sub, "$(BL):$(DEV):$(R)")
+{
+    field(SNAM, "writeaddr")
+    field(INPA, $(ADDR))
+}
+

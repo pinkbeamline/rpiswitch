@@ -1,0 +1,20 @@
+file "$(TOP)/db/rpi_input.template" { pattern
+{  BL,    DEV,         R,  ADDR}
+{PINK,  RPISW,    input1,     0}
+{PINK,  RPISW,    input2,     1}
+{PINK,  RPISW,    input3,     2}
+{PINK,  RPISW,    input4,     3}
+}
+
+file "$(TOP)/db/rpi_output.template" { pattern
+{  BL,    DEV,         R,  ADDR}
+{PINK,  RPISW,    output1,     0}
+{PINK,  RPISW,    output2,     1}
+{PINK,  RPISW,    output3,     2}
+{PINK,  RPISW,    output4,     3}
+{PINK,  RPISW,    output5,     4}
+{PINK,  RPISW,    output6,     5}
+{PINK,  RPISW,    output7,     6}
+{PINK,  RPISW,    output8,     7}
+}
+

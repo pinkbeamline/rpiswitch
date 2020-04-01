@@ -1,0 +1,4 @@
+function(startserver)
+function(readaddr)
+function(writeaddr)
+function(cswitch)
