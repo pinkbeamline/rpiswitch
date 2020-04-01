@@ -6,5 +6,5 @@ IOC to control Raspberry PI as a trigger switch
 
 install with:
 ```shell
-$sudo apt install 
+$ sudo apt install wiringPi
 ```
